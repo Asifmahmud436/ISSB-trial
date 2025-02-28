@@ -4,17 +4,45 @@ import secondIcon from "./images/secondIcon.png";
 import thirdIcon from "./images/thirdIcon.png";
 import bannerImg from "./images/bannerImg.png";
 import { CiSearch } from "react-icons/ci";
+import mailLogo from './images/upperNav/mail.png'
+import whatsAppLogo from './images/upperNav/whatsapp.png'
+import locationLogo from './images/upperNav/location.png'
+import cellLogo from './images/upperNav/cell.png'
 
-export default function BNavLinknner() {
+export default function Banner() {
   return (
     <div
-      className="font-[Roboto] bg-cover"
+      className="font-[Roboto] bg-cover h-screen"
       style={{ backgroundImage: `url(${bannerImg})` }}
     >
         {/* navbar */}
+      <nav className="flex justify-between items-center max-w-7xl mx-auto py-4 h-11 backdrop-blur-sm shadow-md">
+        <div className="text-white flex gap-x-4">
+          <div className="flex gap-x-2 border-e-1 border-gray-500 items-center ">
+            <img src={mailLogo} alt="" className="w-3.5 h-3.5" />
+            <p className="me-3">info@issb-bd.com</p>
+          </div>
+          <div className="flex gap-x-2 items-center border-e-1 border-gray-500">
+            <img src={cellLogo} alt="" className="w-3.5 h-3.5" />
+            <p className="me-3">123 456 789</p>
+          </div>
+          <div className="flex gap-x-2 items-center border-e-1 border-gray-500">
+            <img src={whatsAppLogo} alt=""  className="w-3.5 h-3.5"/>
+            <p className="me-3">123 456 789</p>
+          </div>
+          <div className="flex gap-x-2 items-center">
+            <img src={locationLogo} alt=""  className="w-3.5 h-3.5"/>
+            <p>Find Us</p>
+          </div>
+        </div>
+        <div className="text-white">
+          <button className="bg-red-500 py-1 px-3 rounded">Eng</button>
+          <button className="bg-black-500 py-1 rounder px-3">Bang</button>
+        </div>
+      </nav>
       <nav className="flex justify-around items-center max-w-8xl mx-auto py-4">
         <img src={logo} alt="logo" />
-        <div className="text-white flex justify-between w-5xl ">
+        <div className="text-white flex justify-between w-5xl font-bold text-xl">
           <a>Home</a>
           <a>Candidate Info</a>
           <a>Schedule</a>

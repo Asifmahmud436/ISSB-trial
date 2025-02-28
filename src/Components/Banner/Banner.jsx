@@ -66,7 +66,7 @@ export default function Banner() {
 
       {/* main section */}
       <section className="font-[Roboto] pt-24 text-white text-center max-w-6xl mx-auto">
-        <h1 className="font-[Roboto] py-2 text-2xl">TAKE A PATH WITH PURPOSE</h1>
+        <h1 className="font-[Roboto] py-2 pt-22 text-2xl">TAKE A PATH WITH PURPOSE</h1>
         <h1 className="font-bold font-[Roboto] text-6xl pt-2 pb-12">BE PART OF SOMETHING BIGGER
             <br />
         THAN YOURSELF</h1>

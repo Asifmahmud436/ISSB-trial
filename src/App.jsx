@@ -1,6 +1,7 @@
 import './App.css'
 import Banner from './Components/Banner/Banner'
 import FourPrinciples from './Components/FourPrinciples/FourPrinciples'
+import History from './Components/History/History'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Banner/>
       <FourPrinciples/>
+      <History/>
     </div>
   )
 }

@@ -7,7 +7,7 @@ import img6 from './images/img6.png'
 
 export default function Gallery(){
     return(
-        <div className="max-w-7xl m-auto mt-22">
+        <div className="max-w-7xl m-auto mt-22 pt-22">
             <nav className="flex justify-between items-center">
                 <div>
                     <h1 className="text-[#1F4941] pb-3 text-3xl font-semibold">Explore Our Gallery</h1>

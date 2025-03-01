@@ -1,6 +1,7 @@
 import './App.css'
 import Banner from './Components/Banner/Banner'
 import Contact from './Components/ContactUs/Contact'
+import Courses from './Components/Courses/Courses'
 import Footer from './Components/Footer/Footer'
 import FourPrinciples from './Components/FourPrinciples/FourPrinciples'
 import Gallery from './Components/Gallery/Gallery'
@@ -13,6 +14,7 @@ function App() {
       <Banner/>
       <FourPrinciples/>
       <History/>
+      <Courses/>
       <Gallery/>
       <Contact/>
       <Footer/>

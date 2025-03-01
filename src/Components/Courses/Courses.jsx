@@ -6,7 +6,7 @@ import arrow from "./images/arrow.png";
 export default function Courses() {
   return (
     <div className="my-32 max-w-[1500px] mx-auto">
-        <nav className="flex justify-between items-center  py-16">
+        <nav className="flex justify-between items-center  pb-12">
             <div>
                 <h1 className="text-[#1F4941] font-bold text-4xl pb-4">Our Intake Courses</h1>
                 <p className="text-sm text-[#939293]">Lorem ipsum dolor sit amet consectetur,

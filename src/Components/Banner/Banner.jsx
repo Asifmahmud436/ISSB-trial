@@ -42,7 +42,7 @@ export default function Banner() {
       </nav>
       <nav className="flex justify-around items-center max-w-8xl mx-auto py-4">
         <img src={logo} alt="logo" />
-        <div className="text-white flex justify-between w-5xl font-bold text-xl">
+        <div className="text-white flex justify-between w-5xl  text-xl">
           <a>Home</a>
           <a>Candidate Info</a>
           <a>Schedule</a>

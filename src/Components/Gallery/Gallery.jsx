@@ -17,7 +17,7 @@ export default function Gallery(){
             </nav>
 
             {/* image section */}
-            <section className='mx-auto mt-9 mb-7i'>
+            <section className='mx-auto mt-9 mb-7'>
                 <div className='flex pb-7'>
                     <img src={img1} alt="" className='h-80 pe-7'/>
                     <img src={img2} alt="" className='h-80 pe-7'/>

@@ -13,10 +13,10 @@ export default function Courses() {
                      adipisicing elit. Facere dolore laborum <br />quidem ipsam explicabo rem?</p>
             </div>
             <div className="flex gap-x-4">
-                <button className='bg-[#F3EDE8] py-2 px-4'>Army</button>
-                <button className='bg-[#F3EDE8] py-2 px-4'>Navy</button>
-                <button className='bg-[#F3EDE8] py-2 px-4'>Air Force</button>
-                <button className='bg-red-600 text-white py-2 px-4'>All Course</button>
+                <button className='bg-[#F3EDE8] py-2 px-4 hover:text-white hover:bg-red-600'>Army</button>
+                <button className='bg-[#F3EDE8] py-2 px-4 hover:text-white hover:bg-red-600'>Navy</button>
+                <button className='bg-[#F3EDE8] py-2 px-4 hover:text-white hover:bg-red-600'>Air Force</button>
+                <button className='bg-red-600 text-white py-2 px-4  hover:text-black hover:bg-[#F3EDE8]'>All Course</button>
             </div>
         </nav>
       {/* card section */}
